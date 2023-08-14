@@ -16,7 +16,7 @@
     {
       "name": "David Huyck",
       "homepage": "https://www.carleton.edu/"
-    },
+    }
   ],
   "type": "wordpress-plugin",
   "require": {
