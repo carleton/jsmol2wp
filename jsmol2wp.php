@@ -44,7 +44,6 @@ function jsmol2wp_shortcode( $atts ) {
 
 	return $p->makeViewer( $acc, $type, $load, $caption, $commands, $wrap, $debug );
 }
-
 add_shortcode( 'jsmol', 'jsmol2wp_shortcode' );
 
 function jsmol_mime_types( $mime_types ) {
@@ -60,8 +59,44 @@ function jsmol_mime_types( $mime_types ) {
 
 	return $mime_types;
 }
+add_filter( 'upload_mimes', 'jsmol_mime_types', 10, 1 );
+function add_jsmol_mime_types( $types, $file, $filename, $mimes ) {
+	if ( false !== strpos( $filename, '.pdb' ) ) {
+		$types['ext'] = 'pdb';
+		$types['type'] = 'chemical/x-pdb';
+	}
+	if ( false !== strpos( $filename, '.cif' ) ) {
+		$types['ext'] = 'cif';
+		$types['type'] = 'chemical/x-cif';
+	}
+	if ( false !== strpos( $filename, '.cml' ) ) {
+		$types['ext'] = 'cml';
+		$types['type'] = 'chemical/x-cml+xml';
+	}
+	if ( false !== strpos( $filename, '.jvxl' ) ) {
+		$types['ext'] = 'jvxl';
+		$types['type'] = 'chemical/x-jvxl';
+	}
+	if ( false !== strpos( $filename, '.mol' ) ) {
+		$types['ext'] = 'mol';
+		$types['type'] = 'chemical/x-mdl-molfile';
+	}
+	if ( false !== strpos( $filename, '.mol2' ) ) {
+		$types['ext'] = 'mol2';
+		$types['type'] = 'chemical/x-mol2';
+	}
+	if ( false !== strpos( $filename, '.xyz' ) ) {
+		$types['ext'] = 'xyz';
+		$types['type'] = 'chemical/x-xyz';
+	}
+	if ( false !== strpos( $filename, '.ccp4' ) ) {
+		$types['ext'] = 'ccp4';
+		$types['type'] = 'text/ccp4';
+	}
 
-add_filter( 'upload_mimes', 'jsmol_mime_types', 1, 1 );
+	return $types;
+}
+add_filter( 'wp_check_filetype_and_ext', 'add_jsmol_mime_types', 10, 4 );
 
 function enqueue_jsmol_scripts() {
 	wp_register_script(
@@ -73,5 +108,4 @@ function enqueue_jsmol_scripts() {
 	wp_enqueue_script( 'jsmol.min.nojq' );
 
 }
-
 add_action( 'wp_enqueue_scripts', 'enqueue_jsmol_scripts' );
