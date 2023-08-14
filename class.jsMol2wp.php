@@ -95,7 +95,7 @@ class jsMol2wp {
 		if ( $commands != '' ) {
 			$commandsSet = explode( '|||', $commands );
 			foreach ( $commandsSet as $i => $command ) {
-				list( $label, $script ) = explode( '=', $command . "=", 2 );
+				[ $label, $script ] = explode( '=', $command . "=", 2 );
 				$label  = trim( $label );
 				$script = trim( $script, "\n=" );
 				# if there is no script, assume that the line is raw Jmol script
@@ -191,7 +191,7 @@ jmolButton("spacefill 23%;wireframe 0.15","ball&stick");'
 			if ( $this->load != '' ) {
 				$loadStr = $this->load;
 			} else {
-				if ( $this->acc != '' && ( $this->acc{0} == '$' || $this->acc{0} == ':' ) ) {
+				if ( $this->acc != '' && ( substr( $this->acc, 0, 1 ) == '$' || substr( $this->acc, 0, 1 ) == ':' ) ) {
 					$loadStr    = "load $this->acc;spacefill 23%;wireframe 0.15;color cpk;spin off;";
 					$this->type = 'mol';
 				}
@@ -267,9 +267,9 @@ jmolButton("spacefill 23%;wireframe 0.15","ball&stick");'
 		}
 		wp_reset_postdata();
 		# if the above fails, check for a case where the extension was not given in type
-		if ( is_null( $attachment ) ) {
-			$attachment = get_page_by_title( $filename, OBJECT, 'attachment' );
-		}
+//		if ( is_null( $attachment ) ) {
+//			$attachment = get_page_by_title( $filename, OBJECT, 'attachment' );
+//		}
 
 		return $attachment;
 	}
@@ -303,15 +303,15 @@ jmolButton("spacefill 23%;wireframe 0.15","ball&stick");'
 				}
 				$str .= 'file_get_contents: ';
 				$str .= file_get_contents( __FILE__ ) ? 'Enabled' : 'Disabled';
-				if ( $this->fileURL != '' ) {
-					$str        .= "\npath to uploaded file:" . $this->fileURL . "\n";
-					$tmp        = wp_remote_fopen( $this->fileURL );
-					$str        .= "Excerpt from file:" . substr( $tmp, 0, 20 ) . "...\n";
-					$attachment = get_page_by_title( $this->acc, OBJECT, 'attachment' );
-					if ( is_null( $attachment ) ) {
-						$str .= "attachment for $this->acc not found\n";
-					}
-				}
+//				if ( $this->fileURL != '' ) {
+//					$str        .= "\npath to uploaded file:" . $this->fileURL . "\n";
+//					$tmp        = wp_remote_fopen( $this->fileURL );
+//					$str        .= "Excerpt from file:" . substr( $tmp, 0, 20 ) . "...\n";
+//					$attachment = get_page_by_title( $this->acc, OBJECT, 'attachment' );
+//					if ( is_null( $attachment ) ) {
+//						$str .= "attachment for $this->acc not found\n";
+//					}
+//				}
 				break;
 		}
 
