@@ -1,0 +1,31 @@
+{
+  "name": "carleton/jsmol2wp",
+  "description": "Fork of JSMol2WP for WordPress",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "jsmol"
+  ],
+  "homepage": "https://github.com/wp-plugins/jsmol2wp",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Bob Hanson",
+      "homepage": "http://chemapps.stolaf.edu/jmol/jsmol"
+    },
+    {
+      "name": "David Huyck",
+      "homepage": "https://www.carleton.edu/"
+    },
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=4.1.0",
+    "composer/installers": "^1.4.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
