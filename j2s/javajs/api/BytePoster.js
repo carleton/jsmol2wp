@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.api");
-Clazz.declareInterface (javajs.api, "BytePoster");
+Clazz.declarePackage("javajs.api");
+Clazz.declareInterface(javajs.api, "BytePoster");

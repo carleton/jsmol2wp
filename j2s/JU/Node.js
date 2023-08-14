@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JU");
-Clazz.declareInterface (JU, "Node");
+Clazz.declarePackage("JU");
+Clazz.declareInterface(JU, "Node");

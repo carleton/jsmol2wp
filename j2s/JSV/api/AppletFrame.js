@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.api");
-Clazz.declareInterface (JSV.api, "AppletFrame");
+Clazz.declarePackage("JSV.api");
+Clazz.declareInterface(JSV.api, "AppletFrame");

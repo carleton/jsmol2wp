@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JU");
-c$ = Clazz.declareType (JU, "GZIPInputStream");
+Clazz.declarePackage("JU");
+c$ = Clazz.declareType(JU, "GZIPInputStream");

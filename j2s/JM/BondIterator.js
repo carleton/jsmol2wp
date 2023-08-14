@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JM");
-Clazz.declareInterface (JM, "BondIterator");
+Clazz.declarePackage("JM");
+Clazz.declareInterface(JM, "BondIterator");

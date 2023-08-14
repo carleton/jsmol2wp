@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "MinimizerInterface");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "MinimizerInterface");

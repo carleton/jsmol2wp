@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.api");
-Clazz.declareInterface (JSV.api, "JSVTreeNode");
+Clazz.declarePackage("JSV.api");
+Clazz.declareInterface(JSV.api, "JSVTreeNode");

@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "JmolTouchSimulatorInterface");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "JmolTouchSimulatorInterface");

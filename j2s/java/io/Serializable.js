@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.io,"Serializable");
+Clazz.declareInterface(java.io, "Serializable");

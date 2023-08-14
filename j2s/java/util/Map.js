@@ -1,2 +1,2 @@
-Clazz.declareInterface(java.util,"Map");
-Clazz.declareInterface(java.util.Map,"Entry");
+Clazz.declareInterface(java.util, "Map");
+Clazz.declareInterface(java.util.Map, "Entry");

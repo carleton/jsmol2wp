@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.util,"RandomAccess");
+Clazz.declareInterface(java.util, "RandomAccess");

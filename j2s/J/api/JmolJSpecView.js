@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "JmolJSpecView");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "JmolJSpecView");

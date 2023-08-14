@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JS");
-Clazz.declareInterface (JS, "JmolCmdExtension");
+Clazz.declarePackage("JS");
+Clazz.declareInterface(JS, "JmolCmdExtension");

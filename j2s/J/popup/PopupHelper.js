@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.popup");
-Clazz.declareInterface (J.popup, "PopupHelper");
+Clazz.declarePackage("J.popup");
+Clazz.declareInterface(J.popup, "PopupHelper");

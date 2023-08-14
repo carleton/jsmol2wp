@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang,"Runnable");
+Clazz.declareInterface(java.lang, "Runnable");

@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang,"Comparable");
+Clazz.declareInterface(java.lang, "Comparable");

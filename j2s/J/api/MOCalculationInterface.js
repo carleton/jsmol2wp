@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "MOCalculationInterface");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "MOCalculationInterface");

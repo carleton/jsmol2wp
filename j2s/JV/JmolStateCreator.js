@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JV");
-c$ = Clazz.declareType (JV, "JmolStateCreator");
+Clazz.declarePackage("JV");
+c$ = Clazz.declareType(JV, "JmolStateCreator");

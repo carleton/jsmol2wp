@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.util,"Comparator");
+Clazz.declareInterface(java.util, "Comparator");

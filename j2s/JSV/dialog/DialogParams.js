@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.dialog");
-c$ = Clazz.declareType (JSV.dialog, "DialogParams");
+Clazz.declarePackage("JSV.dialog");
+c$ = Clazz.declareType(JSV.dialog, "DialogParams");

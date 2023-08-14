@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang.reflect,"InvocationHandler");
+Clazz.declareInterface(java.lang.reflect, "InvocationHandler");

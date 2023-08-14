@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.swing");
-Clazz.declareInterface (javajs.swing, "TableColumn");
+Clazz.declarePackage("javajs.swing");
+Clazz.declareInterface(javajs.swing, "TableColumn");

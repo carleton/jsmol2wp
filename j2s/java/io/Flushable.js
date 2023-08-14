@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.io,"Flushable");
+Clazz.declareInterface(java.io, "Flushable");

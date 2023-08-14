@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "JmolScriptManager");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "JmolScriptManager");

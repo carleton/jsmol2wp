@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang,"Cloneable");
+Clazz.declareInterface(java.lang, "Cloneable");

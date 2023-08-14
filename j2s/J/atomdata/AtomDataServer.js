@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.atomdata");
-Clazz.declareInterface (J.atomdata, "AtomDataServer");
+Clazz.declarePackage("J.atomdata");
+Clazz.declareInterface(J.atomdata, "AtomDataServer");

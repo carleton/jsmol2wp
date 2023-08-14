@@ -1,1 +1,1 @@
-Clazz.declarePackage ("javajs");
+Clazz.declarePackage("javajs");

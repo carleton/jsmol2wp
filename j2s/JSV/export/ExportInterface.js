@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.export");
-Clazz.declareInterface (JSV["export"], "ExportInterface");
+Clazz.declarePackage("JSV.export");
+Clazz.declareInterface(JSV["export"], "ExportInterface");

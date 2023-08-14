@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JV");
-Clazz.declareInterface (JV, "JmolChimeMessenger");
+Clazz.declarePackage("JV");
+Clazz.declareInterface(JV, "JmolChimeMessenger");

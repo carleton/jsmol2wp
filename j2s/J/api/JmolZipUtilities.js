@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "JmolZipUtilities");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "JmolZipUtilities");

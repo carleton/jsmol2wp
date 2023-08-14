@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.api");
-Clazz.declareInterface (JSV.api, "JSVExporter");
+Clazz.declarePackage("JSV.api");
+Clazz.declareInterface(JSV.api, "JSVExporter");

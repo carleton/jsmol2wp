@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.swing");
-Clazz.declareInterface (javajs.swing, "Document");
+Clazz.declarePackage("javajs.swing");
+Clazz.declareInterface(javajs.swing, "Document");

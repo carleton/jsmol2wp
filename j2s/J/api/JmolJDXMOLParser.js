@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "JmolJDXMOLParser");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "JmolJDXMOLParser");

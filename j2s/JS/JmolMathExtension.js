@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JS");
-Clazz.declareInterface (JS, "JmolMathExtension");
+Clazz.declarePackage("JS");
+Clazz.declareInterface(JS, "JmolMathExtension");

@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.awt");
-c$ = Clazz.declareType (javajs.awt, "LayoutManager");
+Clazz.declarePackage("javajs.awt");
+c$ = Clazz.declareType(javajs.awt, "LayoutManager");

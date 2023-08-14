@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JU");
-Clazz.declareInterface (JU, "Checksum");
+Clazz.declarePackage("JU");
+Clazz.declareInterface(JU, "Checksum");

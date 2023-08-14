@@ -1,1 +1,1 @@
-Clazz.declareInterface (java.io, "DataOutput");
+Clazz.declareInterface(java.io, "DataOutput");

@@ -1,2 +1,2 @@
-Clazz.declarePackage ("java.net");
-Clazz.declareInterface (java.net, "URLStreamHandlerFactory");
+Clazz.declarePackage("java.net");
+Clazz.declareInterface(java.net, "URLStreamHandlerFactory");

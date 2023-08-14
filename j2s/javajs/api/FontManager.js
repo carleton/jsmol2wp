@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.api");
-Clazz.declareInterface (javajs.api, "FontManager");
+Clazz.declarePackage("javajs.api");
+Clazz.declareInterface(javajs.api, "FontManager");

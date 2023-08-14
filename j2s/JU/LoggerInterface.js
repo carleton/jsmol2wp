@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JU");
-Clazz.declareInterface (JU, "LoggerInterface");
+Clazz.declarePackage("JU");
+Clazz.declareInterface(JU, "LoggerInterface");

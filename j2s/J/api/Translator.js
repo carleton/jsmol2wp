@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.api");
-Clazz.declareInterface (J.api, "Translator");
+Clazz.declarePackage("J.api");
+Clazz.declareInterface(J.api, "Translator");

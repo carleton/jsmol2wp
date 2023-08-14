@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.api");
-Clazz.declareInterface (javajs.api, "GenericBinaryDocument");
+Clazz.declarePackage("javajs.api");
+Clazz.declareInterface(javajs.api, "GenericBinaryDocument");

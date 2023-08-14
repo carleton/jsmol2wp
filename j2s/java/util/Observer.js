@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.util,"Observer");
+Clazz.declareInterface(java.util, "Observer");

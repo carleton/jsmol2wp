@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang,"Iterable");
+Clazz.declareInterface(java.lang, "Iterable");

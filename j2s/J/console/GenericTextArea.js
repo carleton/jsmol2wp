@@ -1,2 +1,2 @@
-Clazz.declarePackage ("J.console");
-Clazz.declareInterface (J.console, "GenericTextArea");
+Clazz.declarePackage("J.console");
+Clazz.declareInterface(J.console, "GenericTextArea");

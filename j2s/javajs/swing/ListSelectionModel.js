@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.swing");
-Clazz.declareInterface (javajs.swing, "ListSelectionModel");
+Clazz.declarePackage("javajs.swing");
+Clazz.declareInterface(javajs.swing, "ListSelectionModel");

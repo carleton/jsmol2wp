@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang.reflect,"AnnotatedElement");
+Clazz.declareInterface(java.lang.reflect, "AnnotatedElement");

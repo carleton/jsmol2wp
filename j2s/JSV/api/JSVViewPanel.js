@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JSV.api");
-Clazz.declareInterface (JSV.api, "JSVViewPanel");
+Clazz.declarePackage("JSV.api");
+Clazz.declareInterface(JSV.api, "JSVViewPanel");

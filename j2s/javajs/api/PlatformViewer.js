@@ -1,2 +1,2 @@
-Clazz.declarePackage ("javajs.api");
-Clazz.declareInterface (javajs.api, "PlatformViewer");
+Clazz.declarePackage("javajs.api");
+Clazz.declareInterface(javajs.api, "PlatformViewer");

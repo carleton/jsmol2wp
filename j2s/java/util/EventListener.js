@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.util,"EventListener");
+Clazz.declareInterface(java.util, "EventListener");

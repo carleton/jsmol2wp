@@ -1,2 +1,2 @@
-Clazz.declarePackage ("JM");
-Clazz.declareInterface (JM, "JmolBioModel");
+Clazz.declarePackage("JM");
+Clazz.declareInterface(JM, "JmolBioModel");

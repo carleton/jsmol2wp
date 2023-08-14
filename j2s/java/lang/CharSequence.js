@@ -1,1 +1,1 @@
-Clazz.declareInterface(java.lang,"CharSequence");
+Clazz.declareInterface(java.lang, "CharSequence");
