@@ -1,5 +1,5 @@
 === JSmol2WP ===
-Contributors: Jim Hu
+Contributors: Jim Hu, David Huyck
 Tags: shortcodes, JSmol, Jmol, molecular graphics, PDB
 Requires at least: 3.0
 Tested up to: 4.1
@@ -40,6 +40,10 @@ Jmol documentation can be found at http://jmol.sourceforge.net/#Learn%20to%20use
 2. Applet for a small molecule.
 
 == Changelog ==
+= 1.0.4 =
+* Reformat for modern WordPress code styling
+* Comment-out or update deprecated code
+* Add a `composer.json` file to make the plugin installable via Composer
 = 1.03 =
 * updated jsmol package from Jmol sourceforge
 * Remove beta from help.htm

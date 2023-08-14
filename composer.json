@@ -7,7 +7,7 @@
     "jsmol"
   ],
   "homepage": "https://github.com/wp-plugins/jsmol2wp",
-  "license": "GPL",
+  "license": "GPL2",
   "authors": [
     {
       "name": "Bob Hanson",
